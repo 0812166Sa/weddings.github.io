@@ -174,7 +174,7 @@ p.uslug {
 .sprite-tel {
     padding-right: 9px;
     float: left;
-    background-image: url('/img/spritesheet.png');
+    background-image: url('img/spritesheet.png');
     width: 54px;
     height: 54px;
     background-position: -67px -67px;
@@ -188,7 +188,7 @@ p.uslug {
     margin-left: 11px;
     padding-right: 8px;
     float: left;
-    background-image: url('/img/spritesheet.png');
+    background-image: url('img/spritesheet.png');
     width: 53px;
     height: 52px;
     background-position: -131px -5px;

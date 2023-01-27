@@ -254,21 +254,20 @@ footer a {
 
 }
 
-.footer_col:first-child,
-.logo {
-    padding-left: 1.5rem;
-}
-
-.footer_col:last-child,
-.phone {
-    padding-right: 1.5rem;
-}
 
 .foot {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+}
+
+.logo {
+    margin-left: 2rem;
+}
+
+.phone {
+    margin-right: 2rem;
 }
 
 /* запросы */
@@ -292,22 +291,31 @@ footer a {
         min-height: 192px;
     }
 
-    .phone {
-        margin-left: 55px;
+    .logo {
+        margin-left: 0px;
     }
+
+    .phone {
+        margin-right: 0px;
+    }
+
+    ul {
+        padding-left: 0px;
+    }
+
+
+
 
     .foot {
         flex-direction: column;
         align-self: center;
     }
 
-    .footer_col:first-child {
-        padding-bottom: 20px;
-    }
+
 
     .footer_col {
         padding-bottom: 15px;
-        padding-left: 57px;
+
     }
 }
 
@@ -318,17 +326,11 @@ footer a {
 .block2 {
     width: 100%;
     margin-bottom: 20px;
-    font-size: 1.5git init rem;
+    font-size: 1.5 rem;
 }
 
-.footer_col:first-child {
-    padding-bottom: 20px;
-}
 
-.footer_col {
-    padding-bottom: 15px;
-    padding-left: 57px;
-}
+
 
 
 @media screen and (min-width: 768px) and (max-width: 880px) {
@@ -341,15 +343,15 @@ footer a {
         width: 49%;
     }
 
-    .phone {
-        margin: auto;
-    }
 
     .foot {
         flex-direction: row;
         align-self: center;
     }
 }
+
+
+
 
 @media screen and (min-width: 880px) {
     .block1 {
@@ -364,6 +366,7 @@ footer a {
     .foot {
         flex-direction: row;
         align-self: center;
+        margin: 0 auto;
     }
 
 }
